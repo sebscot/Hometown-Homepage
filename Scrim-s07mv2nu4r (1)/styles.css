@@ -1,0 +1,58 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+#344e41
+#3a5a40
+#588157
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 1px 10px black;
+    background: #344e41;
+    
+}
+.hero {
+    background-image: url("images/field.jpeg");
+    background-size: cover;
+    padding-bottom: 50px;
+    margin-top: -21px
+}
+.roundimage {
+    margin-top: 10px;
+    border: 4px solid #588157;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 130px;
+    box-shadow: 0px 5px 5px black
+}
+
+.guide {
+    border: 5px solid #344e41;
+    margin: 20px 200px;
+    background-color: #344e41;
+    border-right: 10px solid #3a5a40;
+    border-bottom:10px solid #496e4c;
+    border-left: 10px solid #3a5a40;
+    border-top: 10px solid #588157;
+
+
+}
+.carddesc {
+    color: #d1d5c3;
+    font-size: 18px;
+    text-shadow: 0px 0px #d1d5c3;
+}
+.btn {
+    display: block;
+    margin-bottom: 20px;
+    border-top: 3px solid #496e4c;
+    padding-top: 15px
+}
